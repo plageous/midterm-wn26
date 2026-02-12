@@ -7,6 +7,33 @@
         <link rel="stylesheet" href="styles/vac-styles.css">
     </head>
     <body>
-        <h1>This is a placeholder until the full website is fleshed out.</h1>
+        <main>
+            <header>
+                <img src="https://bit.ly/305-vacation">
+                <h1>Book Your Dream Vacation</h1>
+            </header>
+            <form id="booking-form" action="/book-vacation" method="post">
+                <!-- divs are to help with CSS -->
+                <div class="first-row">
+                <label>Destination</label>
+                <span class="err" id="err-destination">Please select an option.</span>
+                <select id="destination" name="destination">
+                    <option value="none">Choose a destination</option>
+                    <option value="new-york">New York, United States of America</option>
+                    <option value="bahamas">Celebration Island, The Bahamas</option>
+                    <option value="bucharest">Bucharest, Romania</option>
+                    <option value="stuttgart">Stuttgart, Germany</option>
+                    <option value="kyoto">Kyoto, Japan</option>
+                </select>
+                </div>
+                <div class="second-row">
+                <label for="date">Departure Date</label>
+                <input type="date" id="date" name="date">
+
+                <label for="travelers">Number of Travelers</label>
+                <input type="number" id="travelers" date="travelers">
+                </div>
+            </form>
+        </main>
     </body>
 </html>
