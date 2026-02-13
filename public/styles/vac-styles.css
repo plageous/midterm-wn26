@@ -13,6 +13,7 @@
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     overflow: hidden;
+    margin-bottom: 1rem;
 }
 
 a {
@@ -27,7 +28,22 @@ body {
 
 footer {
     text-align: center;
-    padding: 25rem;
+    padding: 10rem;
+}
+
+input, select {
+    width: 100%;
+    border: 1px solid #d6d6d6;
+    border-radius: .25rem;
+    margin-bottom: 1.25rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: white;
+}
+
+label {
+    font-size: 18px;
+    
 }
 
 main {
@@ -35,9 +51,41 @@ main {
     width: 30%;
     max-width: 500px;
     min-width: fit-content;
-    margin: 10rem auto 1rem auto;
-    padding: 0 0 6rem 0;
+    margin: 8rem auto 1rem auto;
+    padding: 0 0 4rem 0;
     border-radius: 1rem;
+}
+
+.travel, .depart {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row, .second-row {
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.first-row {
+    flex-direction: column;
+}
+
+.second-row {
+    column-gap: 4rem;
+}
+
+#submit-button {
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #1c5da1;
+    padding: 0.75rem 0.75rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin: 1rem auto;
 }
 
 .err {
