@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url("https://bit.ly/305-vacation");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+    color:white;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+}
+
+a {
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #1c5da1;
+    font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 25rem;
+}
+
+main {
+    background-color: white;
+    width: 30%;
+    max-width: 500px;
+    min-width: fit-content;
+    margin: 10rem auto 1rem auto;
+    padding: 0 0 6rem 0;
+    border-radius: 1rem;
+}
+
+.err {
+    color: darkred;
+    display: none;
+}
