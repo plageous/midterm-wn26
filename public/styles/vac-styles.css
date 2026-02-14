@@ -91,4 +91,5 @@ main {
 .err {
     color: darkred;
     display: none;
+    font-size: 10px;
 }
